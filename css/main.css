@@ -1,0 +1,76 @@
+:root {
+    --main-color: #a85a30;
+    --black-color: #363636;
+    --main-color-shadow : rgba(168, 90, 48, 30%);
+    --rose-color-shadow : rgba(216, 33, 205, 20%);
+    --orange-color-shadow : rgba(255, 110, 37, 40%);
+    --red-color-shadow : rgba(255, 44, 37, 30%)
+}
+
+.main-background-color {
+    background-color: var(--main-color);
+}
+
+a {
+    color: var(--black-color);
+}
+
+#profile {
+    width: 200px;
+    margin-bottom: -9rem;
+}
+
+.main-color {
+    color : var(--main-color);
+}
+
+.langages {
+    margin-top: -9rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.shadow-line-red {
+    cursor: pointer;
+    box-shadow:  inset 0 -0.11em var(--red-color-shadow);
+}
+
+.shadow-line-red:hover {
+    border-radius: 4px;
+    box-shadow: none;
+    background-color: var(--red-color-shadow);
+    color:var(--red-color-shadow);
+    transition-duration: .4s;
+    transition-property: box-shadow,background-color,color;
+}
+.shadow-line-orange {
+    cursor: pointer;
+    box-shadow:  inset 0 -0.11em var(--orange-color-shadow);
+}
+
+.shadow-line-orange:hover {
+    border-radius: 4px;
+    box-shadow: none;
+    background-color: var(--orange-color-shadow);
+    color: var(--orange-color-shadow);
+    transition-duration: .4s;
+    transition-property: box-shadow,background-color,color;
+}
+
+.shadow-red-background {
+    background-color: var(--red-color-shadow);
+    border-radius: 4px;
+    color:var(--red-color-shadow);
+    transition-duration: .4s;
+    transition-property: box-shadow,background-color,color;
+}
+
+.shadow-orange-background {
+    background-color: var(--orange-color-shadow);
+    border-radius: 4px;
+    color: var(--orange-color-shadow);
+ 
+}
+

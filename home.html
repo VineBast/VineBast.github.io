@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vincent Rodriguez | Développeur Web Fullstack & Mobile</title>
+    <link href="img/LogoPortfolio.svg" rel="shortcut icon" type="image/svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--     <link rel="stylesheet" href="node_modules/bulma/css/bulma-rtl.css">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma-rtl.css.map">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma-rtl.min.css">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css.map">
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css"> -->
+
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+    <nav class="navbar m-4">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="home.html">
+                    <img src="img/LogoPortfolio.svg" alt="logo image" width="112" height="28">
+                </a>
+                <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div id="navbarExampleTransparentExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <!--  <a class="navbar-item" href="home.html">
+                        Home
+                    </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
+                            Docs
+                        </a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+                                Overview
+                            </a>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="navbar-end">
+                    <a class="navbar-item" href="home.html">
+                        Home
+                    </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
+                            More
+                        </a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+                                Me contacter
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navbar-item">
+                        <a class="button is-large is-white test" href="https://www.linkedin.com/in/rodriguezvb/"
+                            target="_blank">
+                            <span class="icon">
+                                <img class="fab" src="img/linkedin.svg"></img>
+                            </span>
+                        </a>
+                        <a class="button is-large is-white" href="https://github.com/VineBast" target="_blank">
+                            <span class="icon">
+                                <img class="fab" src="img/github.svg"></img>
+                            </span>
+                        </a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="hero has-text-centered">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <h1 class="title is-1 mb-4 p-2">
+                            <a href="#web" class="shadow-line-orange" onclick="web()">Développeur Web</a> Fullstack & <a
+                                href="#mobile" onclick="mobile()" class="shadow-line-red">Mobile</a>
+                        </h1>
+                        <p class="subtitle is-size-4 p-4">
+                            Créateur de sites et d'applications esthétiques
+                        </p>
+                        <img id="profile" src="img/avatar-logo.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section is-medium is-long main-background-color">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-two-thirds m-2">
+                    <h2 onmouseover="changePicture()" class="title has-text-white is-2 pb-2">
+                        Bonjour, je m'appelle Vincent,
+                    </h2>
+                    <p class="has-text-white subtitle is-5">après un DUT Informatique et une Licence Projet Web et
+                        Mobile, je suis
+                        actuellement <span class="underline">en quète du Master parfait !</span><br>
+                        J'ai déjà deux expériences professionnelles dans le dév Web et tout un tas de projets dans mes
+                        bagages.
+                        <!-- J'ai
+                        développé un site en tant que stagiaire pour une association environementaliste et je suis en ce
+                        moment en train de mettre en place un site intranet en tant qu'alternant. -->
+                        Par ailleurs, je voue une passion pour l'esthétisme et ce dans une variété de domaines : dans
+                        l'Informatique, le cinéma, la mode...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section has-text-centered langages">
+        <div class="container">
+            <div class="box">
+                <div class="content">
+                    <div class="columns">
+                        <div class="column">
+                            <h2 class="title is-size-2 mt-1 mb-6"><span id="web">Web</span></h2>
+                            <p class="subtitle is-4 main-color">Les langages que j'utilise :</p>
+                            <p>HTML, CSS, Scss, Saas, JavaScript, PHP, SQL, NoSQL.</p>
+                            <p class="subtitle is-4 main-color m-6">Mes Frameworks favoris :</p>
+                            <div class="columns">
+                                <div class="column">
+                                    <img src="img/react-js.png" alt="react-js logo">
+                                    <img src="img/bootstrap-logo.png" alt="bootstrap logo">
+                                </div>
+                                <div class="column">
+                                    <img src="img/symfony.png" alt="symfony logo">
+                                    <img src="img/bulma.png" alt="bulma logo">
+                                </div>
+                                <div class="column">
+                                    <img src="img/expressjs.svg" alt="express-js logo">
+                                </div>
+                            </div>                      
+                        </div>
+                        <div class="column">
+                            <h2 class="title is-size-2 mt-1 mb-6"><span id="mobile">Design</span></h2>
+                            <p class="subtitle is-size-4 main-color">Mon champs de compétences :</p>
+                            <p>UX, UI, Rédaction Web, Création de logos.</p>
+                            <p class="subtitle is-4 main-color m-6">Mes Applications favorites :</p>
+                            <div class="columns">
+                                <div class="column">
+                                    <img src="img/sketch.png" alt="react-js logo">
+                                </div>
+                                <div class="column">
+                                    <img src="img/illustrator.png" alt="react-native logo">
+                                </div>
+                                <div class="column">
+                                    <!-- <img src="img/antdesign.svg" alt="antdesign logo"> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <h2 class="title is-size-2 mt-1 mb-6"><span id="mobile">Mobile</span></h2>
+                            <p class="subtitle is-size-4 main-color">Les langages que j'utilise :</p>
+                            <p>JavaScript, Java, XML, Kotlin.</p>
+                            <p class="subtitle is-4 main-color m-6">Mes Frameworks favoris :</p>
+                            <div class="columns">
+                                <div class="column">
+                                    <img src="img/android.png" alt="react-js logo">
+                                </div>
+                                <div class="column">
+                                    <img src="img/react-native.png" alt="react-native logo">
+                                </div>
+                                <div class="column">
+                                    <img src="img/antdesign.svg" alt="antdesign logo">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            </p>
+
+        </div>
+    </footer>
+</body>
+
+</html>
