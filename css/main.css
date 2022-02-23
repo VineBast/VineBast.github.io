@@ -1,10 +1,10 @@
 :root {
     --main-color: #a85a30;
     --black-color: #363636;
-    --main-color-shadow : rgba(168, 90, 48, 30%);
-    --rose-color-shadow : rgba(216, 33, 205, 20%);
-    --orange-color-shadow : rgba(255, 110, 37, 40%);
-    --red-color-shadow : rgba(255, 44, 37, 30%)
+    --main-color-shadow: rgba(168, 90, 48, 30%);
+    --rose-color-shadow: rgba(216, 33, 205, 20%);
+    --orange-color-shadow: rgba(255, 110, 37, 40%);
+    --red-color-shadow: rgba(255, 44, 37, 30%)
 }
 
 .main-background-color {
@@ -21,7 +21,7 @@ a {
 }
 
 .main-color {
-    color : var(--main-color);
+    color: var(--main-color);
 }
 
 .langages {
@@ -32,22 +32,28 @@ a {
     text-decoration: underline;
 }
 
+.border-column {
+    border-left: 0.1px solid var(--main-color-shadow);
+    border-right: 0.1px solid var(--main-color-shadow);
+}
+
 .shadow-line-red {
     cursor: pointer;
-    box-shadow:  inset 0 -0.11em var(--red-color-shadow);
+    box-shadow: inset 0 -0.11em var(--red-color-shadow);
 }
 
 .shadow-line-red:hover {
     border-radius: 4px;
     box-shadow: none;
     background-color: var(--red-color-shadow);
-    color:var(--red-color-shadow);
+    color: var(--red-color-shadow);
     transition-duration: .4s;
-    transition-property: box-shadow,background-color,color;
+    transition-property: box-shadow, background-color, color;
 }
+
 .shadow-line-orange {
     cursor: pointer;
-    box-shadow:  inset 0 -0.11em var(--orange-color-shadow);
+    box-shadow: inset 0 -0.11em var(--orange-color-shadow);
 }
 
 .shadow-line-orange:hover {
@@ -56,21 +62,48 @@ a {
     background-color: var(--orange-color-shadow);
     color: var(--orange-color-shadow);
     transition-duration: .4s;
-    transition-property: box-shadow,background-color,color;
+    transition-property: box-shadow, background-color, color;
 }
 
 .shadow-red-background {
     background-color: var(--red-color-shadow);
     border-radius: 4px;
-    color:var(--red-color-shadow);
+    color: var(--red-color-shadow);
     transition-duration: .4s;
-    transition-property: box-shadow,background-color,color;
+    transition-property: box-shadow, background-color, color;
 }
 
 .shadow-orange-background {
     background-color: var(--orange-color-shadow);
     border-radius: 4px;
     color: var(--orange-color-shadow);
- 
+
 }
 
+@media screen and (max-width: 720px) {
+    .logo-framework {
+        width: 30%;
+    }
+
+    .border-column {
+        border-top: 0.1px solid var(--main-color-shadow);
+        border-bottom: 0.1px solid var(--main-color-shadow);
+        border-left: none;
+        border-right: none;
+    }
+    .langages {
+        margin-top: -5rem;
+    }
+    #profile {
+        margin-bottom: -6rem;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--orange-color-shadow);
+    border-radius: 100px;
+}

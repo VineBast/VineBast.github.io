@@ -8,8 +8,10 @@ function changePicture() {
 
 function mobile() {
     document.getElementById("mobile").setAttribute("class", "shadow-red-background");
+    document.getElementById("design").setAttribute("class", "shadow-red-background");
 }
 
 function web() {
     document.getElementById("web").setAttribute("class", "shadow-orange-background");
+    document.getElementById("design").setAttribute("class", "shadow-orange-background");
 }
