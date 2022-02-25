@@ -11,6 +11,10 @@
     background-color: var(--main-color);
 }
 
+.background-color-orange-shadow {
+    background-color: var(--orange-color-shadow);
+}
+
 a {
     color: var(--black-color);
 }
@@ -91,9 +95,11 @@ a {
         border-left: none;
         border-right: none;
     }
+
     .langages {
         margin-top: -5rem;
     }
+
     #profile {
         margin-bottom: -6rem;
     }
@@ -106,4 +112,53 @@ a {
 ::-webkit-scrollbar-thumb {
     background-color: var(--orange-color-shadow);
     border-radius: 100px;
+}
+
+em {
+    margin: 0.5em;
+}
+
+a.link-animation-red, a.link-animation-rose, a.link-animation-orange, a.link-animation-main {
+    position: relative;
+    color: white;
+}
+
+a.link-animation-red:hover, a.link-animation-rose:hover, a.link-animation-orange:hover, a.link-animation-main:hover {
+    color: var(--main-color);
+} 
+
+a.link-animation-red:before, a.link-animation-rose:before, a.link-animation-orange:before, a.link-animation-main:before {
+    content: "";
+    margin-bottom: -0.2em;
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+a.link-animation-red:before {
+    background-color: #B21E19;
+}
+
+a.link-animation-rose:before {
+    background-color: #FF74BC;
+}
+
+a.link-animation-orange:before {
+    background-color: #FF5733;
+}
+a.link-animation-main:before {
+    background-color: var(--main-color);
+}
+
+a.link-animation-red:hover:before, a.link-animation-rose:hover:before, a.link-animation-orange:hover:before, a.link-animation-main:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+
+a.navbar-item:hover {
+    color : var(--main-color);
 }

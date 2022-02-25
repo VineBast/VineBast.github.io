@@ -15,3 +15,12 @@ function web() {
     document.getElementById("web").setAttribute("class", "shadow-orange-background");
     document.getElementById("design").setAttribute("class", "shadow-orange-background");
 }
+
+function openModal() {
+    console.log("got it");
+    document.getElementById("modal").classList.add('is-active');
+}
+
+function closeModal(id) {
+    document.getElementById(id).classList.remove('is-active');
+}
