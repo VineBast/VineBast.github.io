@@ -147,6 +147,9 @@
                                 <div class="column is-4">
                                     <img class="logo-framework" src="img/bulma.png" alt="bulma logo">
                                 </div>
+                                <div class="column is-4">
+                                    <img class="logo-framework" src="img/svelte.png" alt="svelte logo">
+                                </div>
                             </div>
                         </div>
                         <div class="column border-column">
@@ -156,7 +159,7 @@
                             <p class="subtitle is-size-5 main-color m-6">Mes Applications favorites :</p>
                             <div class="columns is-multiline">
                                 <div class="column is-4">
-                                    <img class="logo-framework" src="img/sketch.png" alt="react-js logo">
+                                    <img class="logo-framework" src="img/figma.svg" alt="figma logo">
                                 </div>
                                 <div class="column is-4">
                                     <img class="logo-framework" src="img/illustrator.png" alt="react-native logo">
@@ -169,7 +172,7 @@
                         <div class="column">
                             <h2 class="title is-size-3 mt-1 mb-6"><span id="mobile">Mobile</span></h2>
                             <p class="subtitle is-size-5 main-color">Les langages que j'utilise :</p>
-                            <p>JavaScript, Java, XML, Kotlin.</p>
+                            <p>JavaScript, Java, XML.</p>
                             <p class="subtitle is-size-5 main-color m-6">Mes Frameworks favoris :</p>
                             <div class="columns is-multiline">
                                 <div class="column is-4">
@@ -195,175 +198,212 @@
             <h3 class="subtitle is-size-5">professionnelles, personnelles et universitaires</h3>
             <div class="columns is-multiline mt-6">
                 <div class="column is-3">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image">
-                                <img src="img/projects/intranet.svg" alt="greenvox image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <!-- <div class="media-left">
-                                    <figure class="image is-64x64">
-                                        <img src="img/projects/greenlobby-logo.png" alt="Placeholder image">
-                                    </figure>
+                    <div class="card grow">
+                        <a onclick="openModal('intranetpaf')">
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="img/projects/intranet.svg" alt="site intranet paf image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <!-- <div class="media-left">
+                                        <figure class="image is-64x64">
+                                            <img src="img/projects/greenlobby-logo.png" alt="Placeholder image">
+                                        </figure>
+                                    </div> -->
+                                    <div class="media-content">
+                                        <p class="title is-4">Site intranet DPAF</p>
+                                        <p class="subtitle is-6">Développement Web<em>•</em><span class="has-text-success">En cours</span></p>
+                                    </div>
+                                </div>
+                                <!-- <div class="content">
+                                    En cours : HTML, CSS, JS, PHP, Joomla
                                 </div> -->
-                                <div class="media-content">
-                                    <p class="title is-4">Site intranet DPAF</p>
-                                    <p class="subtitle is-6">Développement Web<em>•</em><span class="has-text-success">En cours</span></p>
-                                </div>
                             </div>
-                            <!-- <div class="content">
-                                En cours : HTML, CSS, JS, PHP, Joomla
-                            </div> -->
-                        </div>
-                    </div>
+                                                </div>
+                        </a>
                 </div>
                 <div class="column is-3">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image">
-                                <img src="img/projects/moviesrating.svg" alt="greenvox image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4">Movie Rating</p>
-                                    <p class="subtitle is-6">Développement Mobile<em>•</em><span class="has-text-success">En cours</span></p>
-                                </div>
+                    <a onclick="openModal('moviesrating')">
+                        <div class="card grow">
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="img/projects/moviesrating.svg" alt="movies rating image">
+                                </figure>
                             </div>
-                            <!-- <div class="content">
-                                HTML, CSS, Sass, JS, Bulma
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-3">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image">
-                                <img src="img/projects/pomodoro.svg" alt="greenvox image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4">Pomodoro</p>
-                                    <p class="subtitle is-6">Application Web</p>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-4">Movie Rating</p>
+                                        <p class="subtitle is-6">Développement Mobile<em>•</em><span class="has-text-success">En cours</span></p>
+                                    </div>
                                 </div>
-                            </div>
-                            <!-- <div class="content">
-                                Projet universitaire en React JS
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-3">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image">
-                                <img src="img/projects/greenlobby.svg" alt="greenvox image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                               <!--  <div class="media-left">
-                                    <figure class="image is-64x64">
-                                        <img src="img/projects/greenlobby-logo.png" alt="Placeholder image">
-                                    </figure>
+                                <!-- <div class="content">
+                                    HTML, CSS, Sass, JS, Bulma
                                 </div> -->
-                                <div class="media-content">
-                                    <p class="title is-4">Greenvox Risefor</p>
-                                    <p class="subtitle is-6">Développement Web<em>•</em><span class="has-text-primary">En pause</span></p>
-                                </div>
                             </div>
-                            <!-- <div class="content">
-                                HTML, CSS, Sass, JS, Bulma
-                            </div> -->
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="column is-3">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image">
-                                <img src="img/projects/ToDoList.svg" alt="greenvox image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4">ToDoList</p>
-                                    <p class="subtitle is-6">Développement Mobile</p>
-                                </div>
+                    <a onclick="openModal('pomodoro')">
+                        <div class="card grow">
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="img/projects/pomodoro.svg" alt="pomodoro image">
+                                </figure>
                             </div>
-                            <!-- <div class="content">
-                                HTML, CSS, Sass, JS, Bulma
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="column is-3">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image">
-                                <img src="img/projects/planning.svg" alt="greenvox image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4">Site planning</p>
-                                    <p class="subtitle is-6">Application Web</p>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-4">Pomodoro</p>
+                                        <p class="subtitle is-6">Application Web</p>
+                                    </div>
                                 </div>
+                                <!-- <div class="content">
+                                    Projet universitaire en React JS
+                                </div> -->
                             </div>
-                            <!-- <div class="content">
-                                HTML, CSS, Sass, JS, Bulma
-                            </div> -->
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="column is-3">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image">
-                                <img src="img/projects/dames.svg" alt="greenvox image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4">Jeu de Dames</p>
-                                    <p class="subtitle is-6">Application Java</p>
-                                </div>
+                    <a onclick="openModal('greenvox')">
+                        <div class="card grow">
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="img/projects/greenlobby.svg" alt="greenvox image">
+                                </figure>
                             </div>
-                            <!-- <div class="content">
-                                HTML, CSS, Sass, JS, Bulma
-                            </div> -->
+                            <div class="card-content">
+                                <div class="media">
+                                   <!--  <div class="media-left">
+                                        <figure class="image is-64x64">
+                                            <img src="img/projects/greenlobby-logo.png" alt="Placeholder image">
+                                        </figure>
+                                    </div> -->
+                                    <div class="media-content">
+                                        <p class="title is-4">Greenvox Risefor</p>
+                                        <p class="subtitle is-6">Développement Web<em>•</em><span class="has-text-primary">En pause</span></p>
+                                    </div>
+                                </div>
+                                <!-- <div class="content">
+                                    HTML, CSS, Sass, JS, Bulma
+                                </div> -->
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="column is-3">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image">
-                                <img src="img/projects/ShootDatCube.svg" alt="greenvox image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4">Shoot Dat Cube</p>
-                                    <p class="subtitle is-6">Développement Java 3D</p>
-                                </div>
+                    <a onclick="openModal('nanasnft_eboutique')">
+                        <div class="card grow">
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="img/projects/nanasnft_eboutique.svg" alt="nanasnft_eboutique image">
+                                </figure>
                             </div>
-                            <!-- <div class="content">
-                                HTML, CSS, Sass, JS, Bulma
-                            </div> -->
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-4">Nanasnft</p>
+                                        <p class="subtitle is-6">E-boutique Web</p>
+                                    </div>
+                                </div>
+                                <!-- <div class="content">
+                                    HTML, CSS, Sass, JS, Bulma
+                                </div> -->
+                            </div>
                         </div>
-                    </div>
+                    </a>
+                </div>
+                <div class="column is-3">
+                    <a onclick="openModal('todolist')">
+                        <div class="card grow">
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="img/projects/ToDoList.svg" alt="todolist image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-4">ToDoList</p>
+                                        <p class="subtitle is-6">Développement Mobile</p>
+                                    </div>
+                                </div>
+                                <!-- <div class="content">
+                                    HTML, CSS, Sass, JS, Bulma
+                                </div> -->
+                            </div>
+                        </div>
+                    </a>
+                </div>                
+                <div class="column is-3">
+                    <a onclick="openModal('planning')">
+                        <div class="card grow">
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="img/projects/planning.svg" alt="planning image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-4">Site planning</p>
+                                        <p class="subtitle is-6">Application Web</p>
+                                    </div>
+                                </div>
+                                <!-- <div class="content">
+                                    HTML, CSS, Sass, JS, Bulma
+                                </div> -->
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column is-3">
+                    <a onclick="openModal('dames')">
+                        <div class="card grow">
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="img/projects/dames.svg" alt="jeu de dames image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-4">Jeu de Dames</p>
+                                        <p class="subtitle is-6">Application Java</p>
+                                    </div>
+                                </div>
+                                <!-- <div class="content">
+                                    HTML, CSS, Sass, JS, Bulma
+                                </div> -->
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="column is-3">
+                    <a onclick="openModal('shootdatcube')">
+                        <div class="card grow">
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="img/projects/ShootDatCube.svg" alt="greenvox image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-4">Shoot Dat Cube</p>
+                                        <p class="subtitle is-6">Développement Java 3D</p>
+                                    </div>
+                                </div>
+                                <!-- <div class="content">
+                                    HTML, CSS, Sass, JS, Bulma
+                                </div> -->
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
 
@@ -371,10 +411,7 @@
                 Open JS example modal
               </button> -->
         </div>
-    </section>
-    
-    
-
+    </section>    
     <footer class="footer background-color-orange-shadow has-text-white">
         <div class="content has-text-centered">
             <figure><a href="index.html"><img src="img/LogoPortfolio.svg" alt="LogoPortfolio"
@@ -392,20 +429,7 @@
         </div>
     </footer>
 
-    <div id="modal" class="modal">
-        <div class="modal-background"></div>
-      
-        <div class="modal-content">
-          <div class="box">
-            <p>Modal JS example</p>
-            <!-- Your content -->
-          </div>
-        </div>
-      
-        <button onclick="closeModal('modal')" class="modal-close is-large" aria-label="close"></button>
-      </div>
-
-      <!-- <object data="test.html"></object> -->
+    <!-- SECTION MODAL-->
 
 </body>
 

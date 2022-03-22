@@ -16,8 +16,8 @@ function web() {
     document.getElementById("design").setAttribute("class", "shadow-orange-background");
 }
 
-function openModal() {
-    document.getElementById("modal").classList.add('is-active');
+function openModal(id) {
+    document.getElementById(id).classList.add('is-active');
 }
 
 function closeModal(id) {

@@ -84,6 +84,14 @@ a {
 
 }
 
+.grow {
+    transition-duration: 0.4s;
+}
+
+.grow:hover {
+    transform: scale(1.07);
+}
+
 @media screen and (max-width: 720px) {
     .logo-framework {
         width: 30%;
