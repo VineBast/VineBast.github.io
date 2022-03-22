@@ -17,7 +17,6 @@ function web() {
 }
 
 function openModal() {
-    console.log("got it");
     document.getElementById("modal").classList.add('is-active');
 }
 
