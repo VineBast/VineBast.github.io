@@ -25,11 +25,6 @@
                 <a class="navbar-item" href="index.html">
                     <img src="img/LogoPortfolio.svg" alt="logo image" width="110" height="26">
                 </a>
-                <div class="navbar-burger" data-target="navbarExampleTransparentExample">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
             </div>
             <div id="navbarExampleTransparentExample" class="navbar-menu">
                 <div class="navbar-start">
@@ -48,12 +43,13 @@
                     </div> -->
                 </div>
                 <div class="navbar-end">
+                    <!--
                     <a class="navbar-item" href="index.html">
                         Home
                     </a>
                     <a class="navbar-item" href="index.html">
                         Contact
-                    </a>
+                    </a> -->
                     <!-- <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link" href="#">
                             More
@@ -384,7 +380,7 @@
                     </a>
                 </div>
                 <div class="column is-3">
-                    <a onclick="openModal('shootdatcube')">
+                    <a class="js-modal-trigger" data-target="shootdatcube">
                         <div class="card grow">
                             <div class="card-image">
                                 <figure class="image">
@@ -430,6 +426,18 @@
     </footer>
 
     <!-- SECTION MODAL-->
+    <div id="shootdatcube" class="modal">
+        <div class="modal-background"></div>
+      
+        <div class="modal-content">
+          <div class="box">
+            <p>Modal JS example</p>
+            <!-- Your content -->
+          </div>
+        </div>
+      
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>
 
 </body>
 
