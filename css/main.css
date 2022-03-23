@@ -3,6 +3,7 @@
     --black-color: #363636;
     --main-color-shadow: rgba(168, 90, 48, 30%);
     --rose-color-shadow: rgba(216, 33, 205, 20%);
+    --orange-color: #ffc4a4;
     --orange-color-shadow: rgba(255, 110, 37, 40%);
     --red-color-shadow: rgba(255, 44, 37, 30%)
 }
@@ -13,6 +14,10 @@
 
 .background-color-orange-shadow {
     background-color: var(--orange-color-shadow);
+}
+
+.background-color-orange {
+    background-color: var(--orange-color);
 }
 
 a {

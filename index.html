@@ -22,7 +22,7 @@
     <nav class="navbar m-4">
         <div class="container">
             <div class="navbar-brand">
-                <a class="navbar-item" href="index.html">
+                <a class="navbar-item" href="/">
                     <img src="img/LogoPortfolio.svg" alt="logo image" width="110" height="26">
                 </a>
             </div>
@@ -44,10 +44,10 @@
                 </div>
                 <div class="navbar-end">
                     <!--
-                    <a class="navbar-item" href="index.html">
+                    <a class="navbar-item" href="/">
                         Home
                     </a>
-                    <a class="navbar-item" href="index.html">
+                    <a class="navbar-item" href="/">
                         Contact
                     </a> -->
                     <!-- <div class="navbar-item has-dropdown is-hoverable">
@@ -195,7 +195,7 @@
             <div class="columns is-multiline mt-6">
                 <div class="column is-3">
                     <div class="card grow">
-                        <a onclick="openModal('intranetpaf')">
+                        <a class="js-modal-trigger" data-target="dpaf-intranet">
                             <div class="card-image">
                                 <figure class="image">
                                     <img src="img/projects/intranet.svg" alt="site intranet paf image">
@@ -209,19 +209,20 @@
                                         </figure>
                                     </div> -->
                                     <div class="media-content">
-                                        <p class="title is-4">Site intranet DPAF</p>
-                                        <p class="subtitle is-6">Développement Web<em>•</em><span class="has-text-success">En cours</span></p>
+                                        <p class="title is-4">Site intranet DAP</p>
+                                        <p class="subtitle is-6">Développement Web<em>•</em><span
+                                                class="has-text-success">En cours</span></p>
                                     </div>
                                 </div>
                                 <!-- <div class="content">
                                     En cours : HTML, CSS, JS, PHP, Joomla
                                 </div> -->
                             </div>
-                                                </div>
-                        </a>
+                    </div>
+                    </a>
                 </div>
                 <div class="column is-3">
-                    <a onclick="openModal('moviesrating')">
+                    <a class="js-modal-trigger" data-target="moviesrating">
                         <div class="card grow">
                             <div class="card-image">
                                 <figure class="image">
@@ -232,7 +233,8 @@
                                 <div class="media">
                                     <div class="media-content">
                                         <p class="title is-4">Movie Rating</p>
-                                        <p class="subtitle is-6">Développement Mobile<em>•</em><span class="has-text-success">En cours</span></p>
+                                        <p class="subtitle is-6">Développement Mobile<em>•</em><span
+                                                class="has-text-success">En cours</span></p>
                                     </div>
                                 </div>
                                 <!-- <div class="content">
@@ -243,7 +245,7 @@
                     </a>
                 </div>
                 <div class="column is-3">
-                    <a onclick="openModal('pomodoro')">
+                    <a class="js-modal-trigger" data-target="pomodoro">
                         <div class="card grow">
                             <div class="card-image">
                                 <figure class="image">
@@ -265,7 +267,7 @@
                     </a>
                 </div>
                 <div class="column is-3">
-                    <a onclick="openModal('greenvox')">
+                    <a class="js-modal-trigger" data-target="greenvox">
                         <div class="card grow">
                             <div class="card-image">
                                 <figure class="image">
@@ -274,14 +276,15 @@
                             </div>
                             <div class="card-content">
                                 <div class="media">
-                                   <!--  <div class="media-left">
+                                    <!--  <div class="media-left">
                                         <figure class="image is-64x64">
                                             <img src="img/projects/greenlobby-logo.png" alt="Placeholder image">
                                         </figure>
                                     </div> -->
                                     <div class="media-content">
                                         <p class="title is-4">Greenvox Risefor</p>
-                                        <p class="subtitle is-6">Développement Web<em>•</em><span class="has-text-primary">En pause</span></p>
+                                        <p class="subtitle is-6">Développement Web<em>•</em><span
+                                                class="has-text-primary">En pause</span></p>
                                     </div>
                                 </div>
                                 <!-- <div class="content">
@@ -292,11 +295,11 @@
                     </a>
                 </div>
                 <div class="column is-3">
-                    <a onclick="openModal('nanasnft_eboutique')">
+                    <a class="js-modal-trigger" data-target="nanasnft-eboutique">
                         <div class="card grow">
                             <div class="card-image">
                                 <figure class="image">
-                                    <img src="img/projects/nanasnft_eboutique.svg" alt="nanasnft_eboutique image">
+                                    <img src="img/projects/nanasnft-eboutique.svg" alt="nanasnft-eboutique image">
                                 </figure>
                             </div>
                             <div class="card-content">
@@ -314,7 +317,7 @@
                     </a>
                 </div>
                 <div class="column is-3">
-                    <a onclick="openModal('todolist')">
+                    <a class="js-modal-trigger" data-target="todolist">
                         <div class="card grow">
                             <div class="card-image">
                                 <figure class="image">
@@ -334,13 +337,13 @@
                             </div>
                         </div>
                     </a>
-                </div>                
+                </div>
                 <div class="column is-3">
-                    <a onclick="openModal('planning')">
+                    <a class="js-modal-trigger" data-target="planning">
                         <div class="card grow">
                             <div class="card-image">
                                 <figure class="image">
-                                    <img src="img/projects/planning.svg" alt="planning image">
+                                    <img src="img/projects/planning.svg" alt="site planning image">
                                 </figure>
                             </div>
                             <div class="card-content">
@@ -358,7 +361,7 @@
                     </a>
                 </div>
                 <div class="column is-3">
-                    <a onclick="openModal('dames')">
+                    <a class="js-modal-trigger" data-target="dames">
                         <div class="card grow">
                             <div class="card-image">
                                 <figure class="image">
@@ -384,7 +387,7 @@
                         <div class="card grow">
                             <div class="card-image">
                                 <figure class="image">
-                                    <img src="img/projects/ShootDatCube.svg" alt="greenvox image">
+                                    <img src="img/projects/ShootDatCube.svg" alt="ShootDatCube image">
                                 </figure>
                             </div>
                             <div class="card-content">
@@ -407,14 +410,15 @@
                 Open JS example modal
               </button> -->
         </div>
-    </section>    
+    </section>
     <footer class="footer background-color-orange-shadow has-text-white">
         <div class="content has-text-centered">
-            <figure><a href="index.html"><img src="img/LogoPortfolio.svg" alt="LogoPortfolio"
-                        class="image is-32x32"></a></figure>
+            <figure><a href="/"><img src="img/LogoPortfolio.svg" alt="LogoPortfolio" class="image is-32x32"></a>
+            </figure>
             <p>
                 <a class="link-animation-red" href="/">Home</a><em>•</em>
-                <a class="link-animation-rose" href="https://www.linkedin.com/in/rodriguezvb/" target="_blank">Linkedin</a><em>•</em>
+                <a class="link-animation-rose" href="https://www.linkedin.com/in/rodriguezvb/"
+                    target="_blank">Linkedin</a><em>•</em>
                 <a class="link-animation-orange" href="https://github.com/VineBast" target="_blank">Github</a><em>•</em>
                 <a class="link-animation-main" href="mailto:rodriguez.vincentb@gmail.com">Contact</a>
             </p>
@@ -426,18 +430,208 @@
     </footer>
 
     <!-- SECTION MODAL-->
-    <div id="shootdatcube" class="modal">
+
+     <!-- Modal Nanasnft -->
+     <div class="modal" id="nanasnft-eboutique">
         <div class="modal-background"></div>
-      
-        <div class="modal-content">
-          <div class="box">
-            <p>Modal JS example</p>
-            <!-- Your content -->
-          </div>
+        <div class="modal-card">
+            <header class="modal-card-head background-color-orange">
+                <p class="modal-card-title has-text-white">Nanasnft E-boutique</p>
+                <button class="delete" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+                <figure class="image">
+                    <img src="img/projects/nanasnft-eboutique.svg" alt="site nanasnft-eboutique image">
+                </figure>
+                <div class="content">
+                    <p class="subtitle main-color mt-5">Projet universitaire en solo (Licence Projet Web et
+                        Mobile).</p>
+                    <p> <span class="main-color">Développement d'une E-boutique Web :</span>
+                    <ul>
+                        
+                        <li>
+                            création des entités en lignes de commande Symfony
+                        </li>
+                        <li>
+                            possibilité de se connecter et de s'enregistrer (mot de passe crypté en base de données)
+                        </li>
+                        <li>
+                            page de profil utilisateur
+                        </li>
+                        <li>
+                            mise en place d'un panier avec éléments modifiables et supprimables
+                        </li>
+                        <li>
+                            création des logos avec Adobe Illustrator, choix du thème (âchat de scènes de films NFT)
+                        </li>
+                    </ul>
+                    </p>
+                    <p>
+                        <span class="main-color">Langagues utilisés :</span> PHP, HTML, CSS, Twing, MySQL.<br>
+                        <span class="main-color">Frameworks :</span> Symfony, PHPMyAdmin, Adobe Illustrator, Bootstrap.
+                    </p>
+                </div>
+            </section>
+            <footer class="modal-card-foot background-color-orange">
+                <button class="button background-color-orange-shadow has-text-white">Fermer</button>
+            </footer>
         </div>
-      
-        <button class="modal-close is-large" aria-label="close"></button>
-      </div>
+    </div>
+
+    <!-- Modal ToDoList -->
+    <div class="modal" id="todolist">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            <header class="modal-card-head background-color-orange">
+                <p class="modal-card-title has-text-white">ToDoList</p>
+                <button class="delete" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+                <figure class="image">
+                    <img src="img/projects/ToDoList.svg" alt="site ToDoList image">
+                </figure>
+                <div class="content">
+                    <p class="subtitle main-color mt-5">Projet universitaire en solo (Licence Projet Web et
+                        Mobile).</p>
+                    <p> <span class="main-color">Développement d'une application Mobile :</span>
+                    <ul>
+                        <li>
+                            création d'un système de tabs, avec un onglet liste de tâches, un onglet création de tâches et un onglet calendrier
+                        </li>
+
+                        <li>
+                            dans la liste des tâches, les tâches sont cochables et supprimables
+                        </li>
+                        <li>
+                            fonctionnement en RecyclerView
+                        </li>
+                    </ul>
+                    </p>
+                    <p>
+                        <span class="main-color">Langagues utilisés :</span> Java, XML.<br>
+                        <span class="main-color">Framework :</span> Android Studio.
+                    </p>
+                </div>
+            </section>
+            <footer class="modal-card-foot background-color-orange">
+                <button class="button background-color-orange-shadow has-text-white">Fermer</button>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Modal Planning -->
+    <div class="modal" id="planning">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            <header class="modal-card-head background-color-orange">
+                <p class="modal-card-title has-text-white">Jeu de dames</p>
+                <button class="delete" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+                <figure class="image">
+                    <img src="img/projects/planning.svg" alt="site planning image">
+                </figure>
+                <div class="content">
+                    <p class="subtitle main-color mt-5">Projet universitaire en groupe de 2 (Licence Projet Web et
+                        Mobile).</p>
+                    <p> <span class="main-color">Développement d'une application Web :</span>
+                    <ul>
+                        <li>
+                            création d'un système d'enregistrement et de
+                            connection d'un utilisateur
+                        </li>
+
+                        <li>
+                            création d'un planning de tâches mis-à-jour en base de données NoSQL
+                            (chaque semaine on peut attribuer une tâche à un utilisateur enregistré)
+                        </li>
+                        <li>
+                            requêtage statistique en NoSQL
+                        </li>
+                    </ul>
+                    </p>
+                    <p>
+                        <span class="main-color">Langagues utilisés :</span> PHP, HTML, CSS, NoSQL.<br>
+                        <span class="main-color">Frameworks :</span> Bootstrap, VS Code, MongoDB.
+                    </p>
+                </div>
+            </section>
+            <footer class="modal-card-foot background-color-orange">
+                <button class="button background-color-orange-shadow has-text-white">Fermer</button>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Modal Jeu de dames -->
+    <div class="modal" id="dames">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            <header class="modal-card-head background-color-orange">
+                <p class="modal-card-title has-text-white">Jeu de dames</p>
+                <button class="delete" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+                <figure class="image">
+                    <img src="img/projects/dames.svg" alt="jeu de dames image">
+                </figure>
+                <div class="content">
+                    <p class="subtitle main-color mt-5">Projet universitaire en groupe de 3 (DUT Informatique).</p>
+                    <p>
+                        <span class="main-color">Développement d'une application Java :</span> <ul>
+                            <li>création de l'IHM</li>
+                            <li>mise en place d'un système de comptage de points</li>
+                            <li>
+                                création de l'algorithme d'un jeu de dames : avec les pions qui se transforment en dames, les prises
+                                multiples et l'obligation de "manger" un pion
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        
+                        <span class="main-color">Langagues utilisés :</span> Java, Swing.<br>
+                        <span class="main-color">Framework :</span> Eclipse.
+                    </p>
+                </div>
+            </section>
+            <footer class="modal-card-foot background-color-orange">
+                <button class="button background-color-orange-shadow has-text-white">Fermer</button>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Modal ShootDatCube -->
+    <div class="modal" id="shootdatcube">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            <header class="modal-card-head background-color-orange">
+                <p class="modal-card-title has-text-white">ShootDatCube</p>
+                <button class="delete" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+                <figure class="image">
+                    <img src="img/projects/ShootDatCube.svg" alt="ShootDatCube image">
+                </figure>
+                <div class="content">
+                    <p class="subtitle main-color mt-5">Projet universitaire en solo (Licence Projet Web et Mobile).</p>
+                    <p>
+                        <span class="main-color">Développement d'un application Java :</span> <ul>
+                            <li>création de l'IHM en Swing</li> 
+                            <li>création des cubes en 3D en OpenGL</li>
+                            <li>les cubes sont en mouvements, lorsqu'on les clique ils disparaissent</li>
+                        </ul>
+                    </p>
+                    <p>
+                        
+                        <span class="main-color">Langagues utilisés :</span> Java, Swing, OpenGL.<br>
+                        <span class="main-color">Framework :</span> Eclipse.
+                    </p>
+                </div>
+            </section>
+            <footer class="modal-card-foot background-color-orange">
+                <button class="button background-color-orange-shadow has-text-white">Fermer</button>
+            </footer>
+        </div>
+    </div>
 
 </body>
 
