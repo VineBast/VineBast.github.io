@@ -102,7 +102,9 @@ a {
         max-width: 100px;
         min-width: 70px;
     }
+}
 
+@media screen and (max-width: 1023px) {
     .border-column {
         border-top: 0.1px solid var(--main-color-shadow);
         border-bottom: 0.1px solid var(--main-color-shadow);
@@ -132,16 +134,25 @@ em {
     margin: 0.5em;
 }
 
-a.link-animation-red, a.link-animation-rose, a.link-animation-orange, a.link-animation-main {
+a.link-animation-red,
+a.link-animation-rose,
+a.link-animation-orange,
+a.link-animation-main {
     position: relative;
     color: white;
 }
 
-a.link-animation-red:hover, a.link-animation-rose:hover, a.link-animation-orange:hover, a.link-animation-main:hover {
+a.link-animation-red:hover,
+a.link-animation-rose:hover,
+a.link-animation-orange:hover,
+a.link-animation-main:hover {
     color: var(--main-color);
-} 
+}
 
-a.link-animation-red:before, a.link-animation-rose:before, a.link-animation-orange:before, a.link-animation-main:before {
+a.link-animation-red:before,
+a.link-animation-rose:before,
+a.link-animation-orange:before,
+a.link-animation-main:before {
     content: "";
     margin-bottom: -0.2em;
     position: absolute;
@@ -164,15 +175,19 @@ a.link-animation-rose:before {
 a.link-animation-orange:before {
     background-color: #FF5733;
 }
+
 a.link-animation-main:before {
     background-color: var(--main-color);
 }
 
-a.link-animation-red:hover:before, a.link-animation-rose:hover:before, a.link-animation-orange:hover:before, a.link-animation-main:hover:before {
+a.link-animation-red:hover:before,
+a.link-animation-rose:hover:before,
+a.link-animation-orange:hover:before,
+a.link-animation-main:hover:before {
     visibility: visible;
     width: 100%;
 }
 
 a.navbar-item:hover {
-    color : var(--main-color);
+    color: var(--main-color);
 }
