@@ -97,9 +97,10 @@ a {
     transform: scale(1.07);
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
     .logo-framework {
-        width: 30%;
+        max-width: 100px;
+        min-width: 70px;
     }
 
     .border-column {
