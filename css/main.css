@@ -5,7 +5,9 @@
     --rose-color-shadow: rgba(216, 33, 205, 20%);
     --orange-color: #ffc4a4;
     --orange-color-shadow: rgba(255, 110, 37, 40%);
-    --red-color-shadow: rgba(255, 44, 37, 30%)
+    --red-color-shadow: rgba(255, 44, 37, 30%);
+    --esia-color: #36a9e1;
+    --outscale-color: #041e42;
 }
 
 .main-background-color {
