@@ -7,7 +7,7 @@ class CodeBlock extends HTMLElement {
 
       { prefix: '>', text: 'yarn start vr-website', class: 'text-warning' },
       { prefix: '~', text: 'initializing...', class: 'text-info' },
-      { prefix: '~', text: 'staring vr-projet...', class: 'text-info' },
+      { prefix: '~', text: 'starting vr-website...', class: 'text-info' },
 
       { prefix: '~', text: 'TypeScript Error', class: 'bg-warning text-warning-content' },
       { prefix: '$', text: "...", class: 'text-success' },
