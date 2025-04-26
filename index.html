@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="router.js"></script>
     <script src="./components/CodeBlock.js"></script>
+    <script src="./components/Header.js"></script>
+    <script src="./pages/HomePage.js"></script>
+    <script src="./pages/About.js"></script>
+    <script src="./pages/NotFoundPage.js"></script>
     <title>Vincent Rodriguez</title>
     <style>
         .section-1 {
@@ -45,11 +50,10 @@
 </style>
 
 <body>
-    <header class="navbar bg-base-300">
-    </header>
+    <header-component />
     <section class="section-1">
         <div class="mx-auto w-full max-w-4xl p-4">
-            <code-block />
+            <router-outlet />
         </div>
     </section>
 </body>
